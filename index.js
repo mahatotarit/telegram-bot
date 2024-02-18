@@ -1,6 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
-const keep_alive = require('./keep_alive.js');
 const ethers = require('ethers');
 
 const dotenv = require('dotenv');
