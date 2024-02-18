@@ -145,7 +145,7 @@ try {
       if (Number(refferal_id) > 0) {
         try {
           bot.sendMessage(
-            '5204205237',
+            refferal_id,
             `<b><code>${msg.from.username}</code> joined Meson Network through your referral link.</b>`,
             { parse_mode: 'HTML' },
           );
